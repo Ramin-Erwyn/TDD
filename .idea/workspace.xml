@@ -1,67 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="157e6783-dc53-4dd3-a363-84a1ed759f2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TDD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/fr/p10/miage/rps/model/Play.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/fr/p10/miage/rps/model/Resultat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/fr/p10/miage/rps/model/RockPaperScissors.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/fr/p10/miage/rps/model/RockPaperScissorsTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/untitled-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fr.paris10.miage.rockpaperscissors/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fr.paris10.miage.rockpaperscissors/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fr.paris10.miage.rockpaperscissors/TD1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fr.paris10.miage.rockpaperscissors/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fr.paris10.miage.rockpaperscissors/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fr.paris10.miage.rockpaperscissors/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fr.paris10.miage.rockpaperscissors/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fr.paris10.miage.rockpaperscissors/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fr.paris10.miage.rockpaperscissors/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fr.paris10.miage.rockpaperscissors/src/main/java/fr/p10/miage/rps/model/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fr.paris10.miage.rockpaperscissors/src/test/java/fr/p10/miage/rps/model/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/p10/miage/rps/model/Play.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/p10/miage/rps/model/Resultat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/p10/miage/rps/model/RockPaperScissors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/p10/miage/rps/model/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fr/p10/miage/rps/model/RockPaperScissorsTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="157e6783-dc53-4dd3-a363-84a1ed759f2d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
