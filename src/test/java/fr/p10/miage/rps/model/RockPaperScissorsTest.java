@@ -58,20 +58,31 @@ public void tearDown(){
         assertEquals(rps.play(Play.valueOf(p1),Play.valueOf(p2)),Resultat.LOST);
     }
 
-    @Test ( dataProvider = "winData ")
-    Object[][] testWinPlay ( Play p1 , Play p2 ) {
-        Object[][] createWinData;
-        return new Object[][]{{ p1}, {p2}};}
+    @DataProvider
+    public Object[][] getDataPlayWin() {
+        return new Object[][]{
+                {Play.PAPER, Play.ROCK},
+                {Play.ROCK, Play.SCISSORS},
+                {Play.SCISSORS, Play.PAPER}
+        };
+    }
 
+    @DataProvider
+    public Object[][] getDataPlayTie() {
+        return new Object[][]{
+                {Play.PAPER, Play.PAPER},
+                {Play.ROCK, Play.ROCK},
+                {Play.SCISSORS, Play.SCISSORS}
+        };
+    }
 
-    @Test ( dataProvider = "TieData ")
-    Object[][] testTiePlay ( Play p1 , Play p2 ){
-        Object[ ][ ] createTieData;
-        return new Object[][]{{ p1}, {p2}};}
-
-    @Test ( dataProvider = "LostData ")
-    Object[][] testLostPlay ( Play p1 , Play p2 ){
-        Object [ ][ ] createLostData;
-        return new Object[][]{{ p1}, {p2}};}
+    @DataProvider
+    public Object[][] getDataPlayLoose() {
+        return new Object[][]{
+                {Play.PAPER, Play.SCISSORS},
+                {Play.ROCK, Play.PAPER},
+                {Play.SCISSORS, Play.ROCK}
+        };
+    }
 
 }
