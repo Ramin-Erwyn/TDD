@@ -9,9 +9,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/fr/p10/miage/rps/model/RockPaperScissorsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/fr/p10/miage/rps/model/RockPaperScissorsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fr.paris10.miage.rockpaperscissors/.gitattributes" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/fr.paris10.miage.rockpaperscissors/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/fr.paris10.miage.rockpaperscissors/TD1" beforeDir="false" />
@@ -21,9 +20,6 @@
       <change beforePath="$PROJECT_DIR$/fr.paris10.miage.rockpaperscissors/gradlew" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/fr.paris10.miage.rockpaperscissors/gradlew.bat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/fr.paris10.miage.rockpaperscissors/settings.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fr.paris10.miage.rockpaperscissors/src/main/java/fr/p10/miage/rps/model/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fr.paris10.miage.rockpaperscissors/src/test/java/fr/p10/miage/rps/model/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/fr/p10/miage/rps/model/RockPaperScissorsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fr/p10/miage/rps/model/RockPaperScissorsTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -268,6 +264,28 @@
       <option name="presentableId" value="Default" />
       <updated>1600173503452</updated>
     </task>
+    <task id="LOCAL-00001" summary="troisieme commit">
+      <created>1600434778733</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600434778733</updated>
+    </task>
+    <task id="LOCAL-00002" summary="troisieme commit">
+      <created>1600435385339</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600435385339</updated>
+    </task>
+    <task id="LOCAL-00003" summary="troisieme commit">
+      <created>1600509847364</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600509847365</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,6 +300,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/TDD" />
+      <path value="$PROJECT_DIR$/fr.paris10.miage.rockpaperscissors/TD1" />
+      <path value="$PROJECT_DIR$/fr.paris10.miage.rockpaperscissors/TD1/TD1" />
+    </ignored-roots>
+    <MESSAGE value="troisieme commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="troisieme commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/untitled$RockPaperScissorsTest.ic" NAME="RockPaperScissorsTest Coverage Results" MODIFIED="1600434164814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
