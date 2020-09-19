@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="157e6783-dc53-4dd3-a363-84a1ed759f2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/p10/miage/rps/model/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/p10/miage/rps/model/Play.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/p10/miage/rps/model/Play.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/p10/miage/rps/model/RockPaperScissors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/p10/miage/rps/model/RockPaperScissors.java" afterDir="false" />
-    </list>
+    <list default="true" id="157e6783-dc53-4dd3-a363-84a1ed759f2d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
