@@ -26,7 +26,7 @@ public class RockPaperScissors{
 
 
     Resultat jeu(Player p1, Player p2) {
-        //p1 j1
+        //p1 j1 ArrayList
         Play mouvementP1 = p1.getNextMove(); // dans player hasNext()
         Play mouvementP2 = p2.getNextMove();
 

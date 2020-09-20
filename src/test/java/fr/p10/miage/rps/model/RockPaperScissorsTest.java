@@ -1,12 +1,11 @@
 package fr.p10.miage.rps.model;
 
+import static fr.p10.miage.rps.model.Play.*;
 import static org.testng.Assert.*;
 
 import org.testng.annotations.*;
 
-import static fr.p10.miage.rps.model.Play.ROCK;
-import static fr.p10.miage.rps.model.Play.PAPER;
-import static fr.p10.miage.rps.model.Play.SCISSORS;
+import static fr.p10.miage.rps.model.Player.*;
 
 public class RockPaperScissorsTest {
 
@@ -57,6 +56,11 @@ public void tearDown(){
     public void testLostPlay(String p1, String p2){
         assertEquals(rps.play(Play.valueOf(p1),Play.valueOf(p2)),Resultat.LOST);
     }
+   /* nop @Parameters(p1 ,p2)
+   // @Test
+    public void testGenerator(String p1, String p2){
+       assertEquals(rps.jeu(generatePlay.valueOf(p1),generatePlay.valueOf(p2)),Resultat.WIN);
+    }*/
 
     @DataProvider
     public Object[][] getDataPlayWin() {
