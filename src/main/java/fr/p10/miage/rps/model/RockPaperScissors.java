@@ -1,4 +1,5 @@
 package fr.p10.miage.rps.model;
+import java.util.ArrayList;
 
 public class RockPaperScissors{
     //constructeur par default

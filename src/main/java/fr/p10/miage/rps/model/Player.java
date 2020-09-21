@@ -8,6 +8,7 @@ public class Player{
     //ArrayList<Play>mouvement; //la colection de movvemetn
     ArrayList<Play> mouvement = new ArrayList<Play>();
 
+
 // todo ListIterator<E> https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html à voir !!!!!
 
     public Player(String name){
@@ -46,7 +47,11 @@ public class Player{
         this.score = score;
     }
     //question 4
-    public Play getNextMove(){
-        return mouvement.hasNext() ;
+    public ArrayList<Play> getNextMove(){
+        return hasNext();
+       /* for(int i=0;i< mouvement.lenght;i++){
+            return mouvement+1 ;
+        }*/
+
     }
 }

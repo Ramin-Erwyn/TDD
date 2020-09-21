@@ -10,6 +10,8 @@ import static fr.p10.miage.rps.model.Player.*;
 public class RockPaperScissorsTest {
 
     RockPaperScissors  rps ;
+    Player plg;
+
    @BeforeMethod
 public void setUp(){
        rps = new RockPaperScissors();
@@ -45,6 +47,7 @@ public void tearDown(){
         assertEquals(rps.play(Play.valueOf(p1), Play.valueOf(p2)), Resultat.WIN);
     }
 
+
     @Parameters({"papier","papier"})
     @Test
     public void testTiePlay(String p1,String p2) {
@@ -62,7 +65,35 @@ public void tearDown(){
        assertEquals(rps.jeu(generatePlay.valueOf(p1),generatePlay.valueOf(p2)),Resultat.WIN);
     }*/
 
-    @DataProvider
+   @Test(dataProvider = "winData" )
+   public void testWinPlay(Play p1, Play p2) {
+       assertEquals(rps.play(p1,p2), Resultat.WIN);
+   }
+
+    @Test(dataProvider = "LostData" )
+    public void testLostPlay(Play p1, Play p2) {
+        assertEquals(rps.play(p1,p2), Resultat.WIN);
+    }
+
+    @Test(dataProvider = "winData" )
+    public void testTiePlay(Play p1, Play p2) {
+        assertEquals(rps.play(p1,p2), Resultat.WIN);
+    }
+
+    /* @Test(dataProvider = "Playerwin")
+    public void testPlayerWin(Player p1,Player p2){
+       assertEquals();
+    }
+    @Test(dataProvider = "Playertie")
+    public void testPlayertie(Player p1,Player p2){
+        assertEquals();
+    } @Test(dataProvider = "Playerlost")
+    public void testPlayerlost(Player p1,Player p2){
+        assertEquals();
+    }
+*/
+
+    @DataProvider(name = "winData")
     public Object[][] getDataPlayWin() {
         return new Object[][]{
                 {Play.PAPER, Play.ROCK},
@@ -71,7 +102,7 @@ public void tearDown(){
         };
     }
 
-    @DataProvider
+    @DataProvider( name = "tieData")
     public Object[][] getDataPlayTie() {
         return new Object[][]{
                 {Play.PAPER, Play.PAPER},
@@ -80,8 +111,8 @@ public void tearDown(){
         };
     }
 
-    @DataProvider
-    public Object[][] getDataPlayLoose() {
+    @DataProvider(name = "lostData")
+    public Object[][] getDataPlayLost() {
         return new Object[][]{
                 {Play.PAPER, Play.SCISSORS},
                 {Play.ROCK, Play.PAPER},
